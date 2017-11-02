@@ -1,0 +1,29 @@
+우분투 
+
+# 우분투업데이트
+sudo apt-get update
+
+# vim 편집기 설치
+sudo apt-get install vim
+vi ~/.vimrc
+	set autoindent
+	set smartindent
+	set cindent
+	set number
+	set showmatch
+	set tabstop=3
+	set shiftwidth=3
+	syntax enable
+	syntax on
+vi ~/.bashrc
+	빈공간에
+		alias vi='vim'
+	입력
+source ~/.bashrc
+
+
+# gcc, g++ 설치
+
+sudo apt-get install gcc
+sudo apt-get install g++
+

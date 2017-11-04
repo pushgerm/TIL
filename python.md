@@ -27,20 +27,20 @@
     *      print("Let's not go to %s. It is a silly %s." % (string_1, string_2))
 
 ## The datetime Library
-    *     from datetime import datetime
-          time = datetime.now()
-          print(time)
-          print("%s/%s/%s %s:%s:%s" %(time.year, time.month, time.day, time.hour, time.minute, time.second))
-          """ 
-          2017-11-04 10:24:50.430585
-          2017/11/4 19:34:17
-          """
+*     from datetime import datetime
+      time = datetime.now()
+      print(time)
+      print("%s/%s/%s %s:%s:%s" %(time.year, time.month, time.day, time.hour, time.minute, time.second))
+      """ 
+      2017-11-04 10:24:50.430585
+      2017/11/4 19:34:17
+      """
 
 ## boolean
-    * not -> and -> or
+ * not -> and -> or
 
 ## Conditional Statement
-    *     if a>0:
+*     if a>0:
             print("1")
           elif a<0:
             print("-1")
@@ -48,12 +48,29 @@
             print("0")
 
 ## Input
-    *     a = raw_input("Enter a word : ")
+*     a = raw_input("Enter a word : ")
           # "Enter a word : "를 출력하고 입력을 받아 a에 저장
+
+## 함수
+*     def fName(parameter):
+      #괄호 없이 열 맞춰서
+      return para
+
+### import
+* C++에서 헤더를 포함하듯 import를 통해 함수 집합을 불러올 수 있다. 이 중에서 원하는 함수만 불러오려면 from [module] import [function]으로 불러온다. 모든 변수 및 함수를 import 하려면 from [module] import * 을 해준다.  
+모듈의 함수이름과 같은 함수가 이미 정의되어 있을 때 import [module]은 안전하다. func()와 module.func()가 있기 때문이다. 하지만 from [module] import * 는 이름이 겹치게 된다.
+* module 열어보기
+    *     import module
+          a=dir(module)
+          print(a)
 
 
 ## 참고
-    * .isalpha() : 알파벳인지 아닌지
-    *     s="Charlie"
-          print(s[1:4])
-            # har index 1부터 4 앞 까지
+* .isalpha() : 알파벳인지 아닌지
+*     s="Charlie"
+      print(s[1:4])
+      # har index 1부터 4 앞 까지
+* max(1,2,3....) : 매개변수중 가장 큰 값을 반환
+* min(1, 2, ....) : 매개변수중 가장 작은 값을 반환
+* abs(num) : 절댓값 반환
+* type(t) : 자료형 반환

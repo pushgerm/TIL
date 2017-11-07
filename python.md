@@ -74,3 +74,13 @@
 * min(1, 2, ....) : 매개변수중 가장 작은 값을 반환
 * abs(num) : 절댓값 반환
 * type(t) : 자료형 반환
+
+## 배열
+* .append() 를 통해 배열 확장 가능.
+* .insert(index, "  ") : 배열의 index위치에 삽입
+* .index(" ") : ( ) 에 일치하는 index 반환
+* for i in List : List에 있는 값이 하나씩 i에 넣어져 실행됨
+* .sort() : 배열을 오름차순으로 정렬
+* arr=['key1' : 1, 'key2' : 2] : 배열에 키값을 줘 값을 정할 수 있음. index값에 key값을 입력하면 대응 값을 반환
+* del arr['key'] : 해당 키 pair 삭제
+* .remove('  ') : 해당 원소 삭제

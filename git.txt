@@ -11,6 +11,7 @@ git status : 상태표시. 최신화 된 파일이나 상태가 있으면 보여
 git add f1.txt : 파일을 관리해라. (새로 생성된 파일이나 새 버전 파일 최신화)
 git config --global user.name xxxxxxx : 누구껀지 이름입력
 git config --global user.email xxxxxxx : 누구껀지 이메일 입력
+git config --global --replace-all user.name xxxxx :유저네임 변경
 git commit -am "xxxx" : a : add하기 m : 뒤에 메시지 입력. 커밋하기
 	--amend : 최근 커밋 내용 수정
 	파일이 변경되고 add하지 않고 commit을 하면 마지막 add한 상태의 파일을 commit하게 된다. 그래서 add의 과정과 commit의 과정을 진행 시켜줘야 하는데 이 두 과정을 합친게 commit -a이다. 이 명령어를 사용하면 현 상태의 파일을 add시킴과 동시에 commit시킨다.
@@ -97,7 +98,6 @@ git clone 주소 내주소 : 복제 다른 작업폴더 내 디렉토리로 복�
 git push -u origin master : 로컬저장소 기준에서 원격저장소로 정보를 보낼 때
 오리진의 마스터 브랜치로 보낸다. -u : 로컬과 원격을 연결시켜 다음부터 git push 만 해도 됨
 
-git config --global --replace-all user.name oooo : 유저네임 변경
 
 ssh-keygen : ssh키 생성 (엔터세번)
 cd ~/.ssh : 기본디렉토리

@@ -159,7 +159,7 @@ git rebase oooo
 # ssh(Secure SHell)
 로그인 없이 원격저장소 이용하기
 
-** ssh keygen
+** ssh-keygen
 어떤 말이 나오고 경로가나옴. 경로 기억하기.  엔터 두 번 누르기.
 해당 디렉토리로 가면
 id_rsa : 비밀 키

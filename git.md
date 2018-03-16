@@ -145,7 +145,7 @@ git rebase oooo
 
 여러개의 원격저장소를 연결시켜서 원하는 원격저장소에 저장할 수 있음.
 
-** git remove <별명>
+** git remote remove <별명>
 
 해당 원격저장소를 지움.
 
